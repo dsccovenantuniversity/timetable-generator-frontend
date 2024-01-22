@@ -16,19 +16,19 @@ export const Footer = () => {
         <div className="flex items-center space-x-10">
           <Link
             href="/privacy-policy"
-            className="font-thin text-base hover:text-slate-500"
+            className="font-light text-base hover:text-slate-500"
           >
             Privacy Policy
           </Link>
           <Link
             href="/terms"
-            className="font-thin text-base hover:text-slate-500"
+            className="font-light text-base hover:text-slate-500"
           >
             Terms of Service
           </Link>
           <Link
             href="/contact"
-            className="font-thin text-base hover:text-slate-500"
+            className="font-light text-base hover:text-slate-500"
           >
             Contact
           </Link>
