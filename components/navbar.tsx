@@ -3,7 +3,7 @@ import { Logo } from "./logo";
 
 export const Navbar = () => {
   return (
-    <div className="p-2">
+    <div className="sticky p-2 top-0 bg-white">
       <div className="flex justify-between items-center">
         <p className="font-bold text-lg">Timetable Generator</p>
         <Logo />

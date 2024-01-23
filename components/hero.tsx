@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { reading } from "@/public/images";
+import Link from "next/link";
 
 export const HeroSection = () => {
   return (
@@ -14,25 +15,29 @@ export const HeroSection = () => {
           generator.
         </p>
         <div className="flex space-x-8">
-          <Button
-            variant="default"
-            className="bg-green-500 text-white font-semibold p-6 hover:bg-green-500/60"
-          >
-            Create
-          </Button>
-          <Button
-            variant="outline"
-            className="font-semibold py-6 border-[#414D5C] border text-[#414D5C]"
-          >
-            Learn More
-          </Button>
+          <Link href="/create">
+            <Button
+              variant="default"
+              className="bg-green-500 text-white font-semibold p-6 hover:bg-green-500/60"
+            >
+              Create
+            </Button>
+          </Link>
+          <Link href="/learn">
+            <Button
+              variant="outline"
+              className="font-semibold py-6 border-[#414D5C] border text-[#414D5C]"
+            >
+              Learn More
+            </Button>
+          </Link>
         </div>
       </div>
       <Image
         src={reading}
         alt="hero"
-        width={500}
-        height={500}
+        width={684}
+        height={590}
         className="object-cover aspect-square"
       />
     </div>

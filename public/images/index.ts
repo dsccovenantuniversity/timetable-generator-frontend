@@ -1,4 +1,4 @@
-import reading from "./reading.png";
+import reading from "./reading.svg";
 import gdsc from "./gdsc.svg";
 
 export { reading, gdsc };
